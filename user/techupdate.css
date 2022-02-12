@@ -1,0 +1,83 @@
+.techupdate{
+    box-shadow: 0 1px 3px rgba(250, 246, 246, 0.918), 0 1px 2px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #fdfdfd;
+    padding: 2rem 5rem;
+}
+
+.techupdate div{
+    display: inline-block;
+    margin: 1rem 0;
+}
+.techupdate h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding-left: 2.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0;
+    font-size: 1.7rem;
+    color: #292C6D;
+}
+.techupdate ul{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding-left: 2rem;
+}
+.techupdate li{
+    display: inline-block;
+    font-family: 'Carter One', cursive;
+}
+
+.listitem{
+    padding: 0.3rem 0.8rem;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0.5rem;
+    box-shadow: 0 1px  rgba(243, 240, 240, 0.822), 0 1px 2px;
+  }
+  
+  .listitem:hover{
+    box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+  }
+  .listitem:active{
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+    transform: scale(0.95);
+  }
+  
+  .listitem img{
+      width: 1.5rem;
+      height: 1.5rem;
+      vertical-align: middle;
+      margin-right: 0.5rem;
+  }
+
+  .selected{
+     background: linear-gradient(-45deg,#88d4f0, #8feed8);
+  }
+
+.techupdate-btn{
+    background: none;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 2rem 0 ;
+    min-width: 201px;
+    border-radius: 50px;
+    min-height: 3.2rem;
+    color: #fff;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transition: all .3s;
+    background: linear-gradient(45deg, #d5135a, #f05924);
+}
+.techupdate-btn:hover{
+    box-shadow: 0px 7px 30px rgba(223, 45, 70, 0.75);
+}
+.techupdate-btn:active{
+    transform: scale(0.95);
+}

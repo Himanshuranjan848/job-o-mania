@@ -1,0 +1,68 @@
+.techprofile{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #fdfdfd;
+    padding: 2rem 5rem;
+}
+
+.techprofile div{
+    display: flex;
+    margin: 1rem 0;
+}
+.techprofile h1{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin: 0;
+    font-size: 1.7rem;
+    color: #292C6D;
+    flex: 3;
+    padding-left: 10%;
+    padding-top: 0.5rem;   /*same as margin top of listitem so that to perfectly align the both*/
+}
+.techprofile ul{
+    flex: 9;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding-left: 2rem;
+}
+.techprofile li{
+    display: inline-block;
+    font-family: 'Carter One', cursive;
+    padding: 0.3rem 0.8rem;
+    border-radius: 50px;
+    margin: 0.5rem;
+    box-shadow: 0 1px  rgba(243, 240, 240, 0.822), 0 1px 2px;
+}
+.techprofile img{
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.techprofile-btn{
+    background: none;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 2rem 0 ;
+    min-width: 201px;
+    border-radius: 50px;
+    min-height: 3.2rem;
+    color: #fff;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transition: all .3s;
+    background: linear-gradient(45deg, #d5135a, #f05924);
+}
+.techprofile-btn:hover{
+    box-shadow: 0px 7px 30px rgba(223, 45, 70, 0.75);
+}
+.techprofile-btn:active{
+    transform: scale(0.95);
+}

@@ -1,0 +1,62 @@
+.userheader{
+    position: absolute;
+    top:0;
+    padding: 1rem 2rem;
+    font-family: 'Rowdies', cursive;
+    color: white;
+    width: 100vw;
+    font-size: 1.5rem;
+}
+
+.userheader-btn{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    font-weight: 800;
+    position: relative;
+}
+.userheader-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 50px;
+    background-image: linear-gradient(to right bottom,#4e24f8 , #ff2846 );
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.userheader-btn:hover::before {
+    width: 100%;
+   
+
+   }
+.userheader-btn:active{
+    transform: scale(0.95);
+}
+.userheader-logo{
+   float: left;
+}
+.userheader-title{
+    float: left;
+}
+.userheader-profile{
+    float: right;
+}
+.userheader-logout{
+    float: right;
+}
+.userheader-jobs{
+    float: right;
+}
+.userheader-about{
+    float: right;
+}
+
+
+.userheader-stats{
+    float: right;
+}

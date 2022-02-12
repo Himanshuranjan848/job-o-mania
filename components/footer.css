@@ -1,0 +1,26 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 2rem;
+    /* background:linear-gradient(to bottom, #e0dcdc,#adabab); */
+    text-align: center;
+    margin-top: 10rem;
+}
+.footer__icons{
+   padding-top: 0.4rem;
+   padding-bottom: 0.5rem;
+}
+
+.footer__icons img{
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 100%;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.footer__text{
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}

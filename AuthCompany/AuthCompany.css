@@ -1,0 +1,168 @@
+.AuthCompany{
+    background-color: rgb(132, 201, 241);
+    height: 100vh;
+    position: relative;
+    text-align: center;
+  }
+  .AuthCompany_Wrapper{
+       width: 85%;
+      height: 85vh;
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .AuthCompany_Wrapper_Left{
+      flex: 0.5;
+      background-color: white;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+      position: relative;
+  }
+  
+  .AuthCompany_Form{
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+  }
+  .Login_Header{
+      font-family: 'Libre Franklin', sans-serif;
+      margin-bottom: 0;
+  }
+  .Login_Header img{
+      height: 1.75rem;
+      object-fit: cover;
+      padding-left: 5px;
+  }
+  .Login_Header_Foot{
+      font-size: 1rem;
+      padding-top: 0;
+      font-family: 'Mukta', sans-serif;
+      margin-top: 0;
+      padding-bottom: 1rem;
+  }
+  .Google_Sign_In_Company{
+    display: inline-block;
+      background: white;
+      color: #444;
+      width: 20vw;
+      border-radius: 5px;
+      border: thin solid #888;
+      box-shadow: 1px 1px 1px grey;
+      padding:0.8rem 1rem;
+      white-space: nowrap;
+      align-items: center;
+      font-size: 1rem;
+      cursor: pointer;
+      margin: 0.5rem auto;
+}
+.Google_Sign_In_Company:active{
+    transform: scale(0.95);
+}
+
+.Google_Sign_In_Company img{
+    height: 1rem;
+    object-fit: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    bottom: -1px;
+}
+
+.Facebook_Sign_In_Company{
+    display: inline-block;
+    background: white;
+    color: #444;
+    width: 20vw;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    padding:0.8rem 1rem;
+    white-space: nowrap;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0.5rem auto;
+}
+.Facebook_Sign_In_Company:active{
+    transform: scale(0.95);
+}
+
+.Facebook_Sign_In_Company img{
+    height: 1rem;
+    object-fit: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    bottom: -1px;
+}
+  .Signup_Header{
+      font-family: 'Libre Franklin', sans-serif;
+      display: flex;
+      flex-direction: row;
+      margin: 0.5rem auto;
+  }
+  .Signup_Header_Text{
+      display:flex;
+      flex-direction:row;
+      align-items: center;
+      font-size: .75rem;
+      color: rgba(173, 169, 169, 0.87);
+  }
+  .Signup_Header_Text_Word{
+      padding: 0px 0.5rem 0px;
+  }
+  
+  .Signup_Form{
+      margin-top: 2rem;
+  }
+  .Signup_Form fieldset{
+      border-radius: 10rem;
+  }
+  .myline{
+      margin: 0.5rem;
+      visibility: hidden;
+  }
+  .Signup_Form Button{
+      border-radius: 10rem;
+      padding: 10px;
+      color: white;
+      background-color: rgb(73, 177, 238);
+  }
+  .Signup_Form Button:hover{
+    background-color: rgb(73, 177, 238);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  .Signup_Form Button:active{
+      transform: scale(0.95);
+  }
+  .AuthCompany_Wrapper_Right{
+    flex: 0.5;
+    background-color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: relative;
+  }
+  
+  .AuthCompany_Right_Img{
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1600px) {
+     .AuthCompany_Wrapper{
+         height: 90vh;
+         width: 90%;
+     }
+     .Login_Header{
+         font-size: 1.8rem;
+     }
+  }
+    

@@ -1,0 +1,5 @@
+onlogout
+
+auth.signOut().then(()=>{
+    dispatch(setUserLogoutState());
+})

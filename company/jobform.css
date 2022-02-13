@@ -1,0 +1,91 @@
+/*-------------------------------- left Part Css ----------------------------------*/
+
+.jobform{
+    padding: 1rem 6rem;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+  }
+  .fa-times-circle{
+      float: right;
+      cursor: pointer;
+      font-size: 2rem;
+  }
+  
+  .jobform p{
+      padding: 0;
+      font-size: 1.5rem;
+  }
+  
+  .jobform td{
+      padding: 1rem;
+      text-align: left;
+  }
+  .jobform tr td:nth-child(odd){
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 600;
+      font-size: 1.2rem;
+  }
+  
+  .jobform__container{
+      display: flex;
+      background-image: linear-gradient(to bottom right,#ffffdd5d, #a2d2ff49,#cffffe7e,#ffffdd5d);
+      position: relative;
+  }
+  .close-btn{
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(50%,-50%);
+  }
+  .fa-times-circle{
+      color: #6944ff;
+      font-size: 3rem;
+  }
+  .jobform__container table{
+    flex: 4;
+  }
+  
+  .jobform__tech{
+    flex:8;
+    padding: 0 10%;
+  }
+
+
+
+/*-------------------------------- Right Part Css ----------------------------------*/
+
+.techcontainer img{
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.techcontainer li{
+    display: inline-block;
+    font-family: 'Carter One', cursive;
+    padding: 0.3rem 0.8rem;
+    border-radius: 50px;
+    margin: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 1px  rgba(243, 240, 240, 0.822), 0 1px 2px;
+    background-color: white;
+}
+.techcontainer li:hover{
+    box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+}
+.techcontainer li:active{
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+    transform: scale(0.95);
+}
+
+.techcontainer ul{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding-left: 2rem;
+}
+
+.select{
+    background-image: linear-gradient(to right, #FAFCC2,#F6D6AD);
+}

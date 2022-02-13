@@ -1,0 +1,106 @@
+
+.company{
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
+}
+
+.company__details{
+    height: 16vh;
+    text-align: left;
+    padding-left: 3%;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.company__details h1{
+    margin:0;
+    color: #6944ff;
+}
+
+.company__image{
+    position: relative;
+    display: inline-block;
+    width:15vh;  /*same as height of .company__details */
+    height: 100%;
+}
+.company__image img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+}
+.image-selector{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.company__details p{
+   margin: 0;
+   color: #324e63;
+}
+.company__details h3{
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.company__details h3 span {
+    color: #324e63;
+    font-size: 1.2rem;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
+}
+.details__box{
+    display: inline-block;
+    margin-left: 2rem;
+}
+.details__bottom{
+    position: absolute;
+    bottom: 0;
+
+}
+.details__top{
+    position: absolute;
+    top: 0;
+}
+
+.recruiter__name{
+    margin: 0;
+}
+
+.recruiter__email{
+    margin: 0;
+}
+
+.company__posts{
+    height: 80%;
+    padding: 5rem 2rem 1rem;
+    text-align: left;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+}
+
+.xxx{
+    padding-bottom: 10rem;
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+    .company__details{
+        height: 18vh;
+    }
+    .post {
+        max-width: 60vh;
+      }
+      .company__details h1{
+          font-size: 1.8rem;
+      }
+}

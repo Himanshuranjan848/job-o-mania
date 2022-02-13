@@ -1,0 +1,76 @@
+.post{
+    display: block;
+    margin-right: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 1px  rgba(243, 240, 240, 0.822), 0 1px 2px;
+    position: relative;
+    min-width: 25%;
+}
+.post ul{
+    display: block;
+    padding: 0;
+    white-space: normal;
+}
+.post a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.post li{
+    font-size: 0.8rem;
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    border-radius: 50px;
+    margin-right: 0.5rem;
+    box-shadow: 0 1px  rgba(243, 240, 240, 0.822), 0 1px 2px;
+    margin-bottom: 1rem;
+}
+.post img{
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+.post table{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    /* background-image: linear-gradient(to bottom right,#ffffdd36,#cffffe44,#ffffdd27); */
+}
+.post:hover{
+    box-shadow: 1px 0px 12px 0px rgba(0,0,0,0.75);
+    transform: scale(1.05);
+}
+.post table td{
+    text-align: left;
+    padding:1rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    word-wrap: break-word;
+    /* overflow-wrap: break-word; */
+}
+.post tr{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.post tr td:nth-child(even){
+    font-weight: 600;
+}
+.post p{
+    font-weight: 600;
+}
+.fa-edit, .fa-trash{
+    float: right;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+    .post{
+        min-width: 35%;
+    }
+}

@@ -104,5 +104,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 * Shubham Singh
  
 Project Link: [Here](https://job-o-mania.web.app/)
+Video Link : [Here](https://youtu.be/_joxAPSBAik)
+Presentation Link : [Here](https://docs.google.com/presentation/d/1LSc3ehQ4dLEyqxa8VASR3LMxIC0l-UAR/edit#slide=id.p4)
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements 🙂

@@ -25,6 +25,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project  👀
 
+![Screenshot 2022-02-13 at 4 16 39 PM](https://user-images.githubusercontent.com/64688647/153752589-3e19c770-9d6c-4534-8473-9fa7300df497.png)
+![Screenshot 2022-02-13 at 4 17 09 PM](https://user-images.githubusercontent.com/64688647/153752596-3cc71d17-942d-40fc-8863-ca76569a8f0e.png)
+
+![Screenshot 2022-02-13 at 4 17 18 PM](https://user-images.githubusercontent.com/64688647/153752599-05330d94-16a4-4a12-a1b0-f990fb4abbe8.png)
+![Screenshot 2022-02-13 at 4 26 54 PM](https://user-images.githubusercontent.com/64688647/153752602-77a7937b-ade7-4eaf-85e7-9adc87ee5390.png)
+![Screenshot 2022-02-13 at 4 17 01 PM](https://user-images.githubusercontent.com/64688647/153752606-d86723f3-39cc-4a70-b8e0-dbcdb1062159.png)
+
 
 A platform which connects student community and companies fulfilling their respective needs. Students will get personalized mail for every job matching to their skills and Companies have the assurance that their job post is being notified to every potential candidate. Not only mails but also a platform where every student can look out job posted by companies. Also a great interpretation of stats of trending and most relevant skills one should have.
 

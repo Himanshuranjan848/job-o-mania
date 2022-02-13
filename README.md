@@ -60,9 +60,11 @@ These are the dependencies you will need for the project and how to import them.
 ### Installation ⏬
 
 
-1. Clone the repo
+   Clone the repo
    sh
    git clone https://github.com/Himanshuranjan848/job-o-mania.git
+   
+   use *npm start*
 
 
 

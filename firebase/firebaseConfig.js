@@ -6,7 +6,6 @@ import { GoogleAuthProvider } from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDZ4fK4CQW_qoEUn4VTQ4n8uOmkorLTF20",
   authDomain: "job-o-mania.firebaseapp.com",
   projectId: "job-o-mania",
   storageBucket: "job-o-mania.appspot.com",

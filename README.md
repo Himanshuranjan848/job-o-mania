@@ -17,7 +17,13 @@
 # Job-O-mania 
  Where skills and Opportunity stands together.
   A web app built for job-seekers and company.
-  
+
+<br>
+Project Link: [Here](https://job-o-mania.web.app/)
+<br>
+Video Link : [Here](https://youtu.be/_joxAPSBAik)
+<br>
+Presentation Link : [Here](https://docs.google.com/presentation/d/1LSc3ehQ4dLEyqxa8VASR3LMxIC0l-UAR/edit#slide=id.p4)
 
 <img src="https://forthebadge.com/images/badges/check-it-out.svg"> 
 
@@ -103,8 +109,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 * Himanshu Ranjan
 * Shubham Singh
  
-Project Link: [Here](https://job-o-mania.web.app/)
-Video Link : [Here](https://youtu.be/_joxAPSBAik)
-Presentation Link : [Here](https://docs.google.com/presentation/d/1LSc3ehQ4dLEyqxa8VASR3LMxIC0l-UAR/edit#slide=id.p4)
+
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements 🙂

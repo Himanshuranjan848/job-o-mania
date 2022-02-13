@@ -14,7 +14,8 @@
 
 
 
-# Job-O-mania
+# Job-O-mania 
+ Where skills and Opportunity stands together.
   A web app built for job-seekers and company.
   
 

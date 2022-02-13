@@ -1,0 +1,29 @@
+.stats{
+    min-height: 100vh;
+    background-color: aliceblue;
+    padding: 5rem 0;
+    text-align: center;
+    
+}
+.stats p{
+  padding: 0 10%;
+  color: gray;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.stats h1{
+  font-family: 'Acme', sans-serif;
+  /* margin-bottom: 2rem;
+  background: -webkit-linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+}
+.statsbox{
+  padding: 0 5rem;
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+  .stats h1{
+   margin-bottom: 3rem;
+  }
+}

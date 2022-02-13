@@ -64,7 +64,7 @@ These are the dependencies you will need for the project and how to import them.
    sh
    git clone https://github.com/Himanshuranjan848/job-o-mania.git
    
-   use *npm start*
+   use *npm start* to run this project
 
 
 

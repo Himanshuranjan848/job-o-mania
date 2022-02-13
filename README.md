@@ -24,7 +24,7 @@ Project Link: [Here](https://job-o-mania.web.app/)
 Video Link : [Here](https://youtu.be/_joxAPSBAik)
 <br>
 Presentation Link : [Here](https://docs.google.com/presentation/d/1LSc3ehQ4dLEyqxa8VASR3LMxIC0l-UAR/edit#slide=id.p4)
-
+<br>
 <img src="https://forthebadge.com/images/badges/check-it-out.svg"> 
 
 
